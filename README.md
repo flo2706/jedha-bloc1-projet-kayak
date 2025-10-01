@@ -1,10 +1,8 @@
-# jedha-bloc1-projet-kayak
-
 # 🌍 Projet Kayak — Infrastructure de Données
 
 ## 📖 Contexte du projet
 
-Ce projet a été réalisé dans le cadre du **Bootcamp Jedha Fullstack (Bloc 1 — Data Engineering)**.  
+Ce projet a été réalisé dans le cadre du **Bootcamp Jedha Data Sc. & Eng. Fullstack (Bloc 1 — Build & Manage a Data Infrastructure)**.  
 L’objectif est d’aider l’équipe marketing de **Kayak** à recommander les meilleures destinations de voyage en France, en se basant sur :
 
 - les **conditions météorologiques**,
@@ -37,15 +35,14 @@ Le projet couvre l’ensemble d’une chaîne de traitement de données (**pipel
 
 ---
 
-## ⚙️ Installation et configuration
+## ⚙️ Installation et configuration  
 
-### 1. Cloner le dépôt
+Le projet utilise un fichier `.env` pour stocker toutes les clés et identifiants nécessaires.  
 
-```bash
-git clone https://github.com/votre-utilisateur/jedha-bloc1-projet-kayak.git
-cd jedha-bloc1-projet-kayak
+Créez un fichier `.env` à la racine du projet avec la structure suivante :  
 
-## AWS
+```ini
+# AWS
 AWS_KEY=VOTRE_AWS_KEY
 AWS_SECRET_KEY=VOTRE_AWS_SECRET_KEY
 
